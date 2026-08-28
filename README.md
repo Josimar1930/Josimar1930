@@ -13,8 +13,13 @@
 Estou atualizando meus conhecimentos e buscando novos desafios na área de tecnologia. Tenho paixão por aprender e aplicar esses conhecimentos para criar soluções inovadoras.
   
 #
+<div align="center">
+
 ![Josimar stats](https://github-readme-stats.vercel.app/api?username=Josimar1930&show_icons=true&theme=dracula)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Josimar1930&stats_format=bytes)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Josimar1930&layout=compact&theme=dracula)
+
+</div>
 #
 
 <img align="right" alt="" height="190px" src="./src/study.gif">
