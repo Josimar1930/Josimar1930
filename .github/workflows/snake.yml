@@ -5,11 +5,17 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
@@ -18,9 +24,23 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push Snake to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish Snake
+        run: |
+          cp -r dist /tmp/snake-dist
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin output || true
+
+          git checkout --orphan output
+          git rm -rf . || true
+
+          cp /tmp/snake-dist/github-contribution-grid-snake.svg .
+          cp /tmp/snake-dist/github-contribution-grid-snake-dark.svg .
+
+          git add github-contribution-grid-snake.svg
+          git add github-contribution-grid-snake-dark.svg
+
+          git commit -m "Generate contribution snake"
+          git push origin output --force
