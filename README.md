@@ -15,11 +15,10 @@ Estou atualizando meus conhecimentos e buscando novos desafios na área de tecno
 #
 <div align="center">
 
-![Josimar stats](https://github-readme-stats.vercel.app/api?username=Josimar1930&show_icons=true&theme=dracula)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Josimar1930&layout=compact&theme=dracula)
+![GitHub Stats](https://josimar-github-stats.vercel.app/api/stats)
 
 </div>
+
 #
 
 <img align="right" alt="" height="190px" src="./src/study.gif"></div>
@@ -47,9 +46,22 @@ Estou atualizando meus conhecimentos e buscando novos desafios na área de tecno
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="25" alt="c logo"  />
   <img width="8" />
 </div>
-#
-<picture align="center">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Josimar1930/Josimar1930/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Josimar1930/Josimar1930/output/github-contribution-grid-snake.svg">
-  <img align="center" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Josimar1930/Josimar1930/output/github-contribution-grid-snake.svg">
+
+##
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Josimar1930/Josimar1930/output/github-contribution-grid-snake-dark.svg"
+  />
+
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Josimar1930/Josimar1930/output/github-contribution-grid-snake.svg"
+  />
+
+  <img
+    alt="GitHub contribution grid snake animation"
+    src="https://raw.githubusercontent.com/Josimar1930/Josimar1930/output/github-contribution-grid-snake.svg"
+  />
 </picture>
