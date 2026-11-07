@@ -1,9 +1,8 @@
 <div align="center">
 
-<p align="center">
-  <img src="https://minha-imagem.vercel.app/imagem.svg" width="800" alt="Minha ilustração">
-</p>
 
+<img src="https://minha-imagem.vercel.app/imagem.svg" width="800" alt="Minha ilustração">
+#
 <img src="https://arquivi-svg.vercel.app/card.svg" width="800" alt="Meu card">
 
 </div>
